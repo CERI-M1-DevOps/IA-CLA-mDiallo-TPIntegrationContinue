@@ -130,8 +130,7 @@ public class ListeSimple {
             precedentR2 = getPrecedent(r2);
             precedentR2.setSuivant(tete);
             tete = r2;
-        }
-        else if (r2 == tete) {
+        } else { // here the the condition is redonnant ; donc we can delete it 
             precedentR1 = getPrecedent(r1);
             precedentR1.setSuivant(tete);
             tete = r1;
