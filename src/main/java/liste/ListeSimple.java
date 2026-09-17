@@ -21,6 +21,7 @@ public class ListeSimple {
             courant.setElement(nouvelleValeur);
     }
 
+    
     public void modifieTous(Object element, Object nouvelleValeur) {
         Noeud courant = tete;
         while (courant != null) {
