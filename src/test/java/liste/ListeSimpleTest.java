@@ -49,12 +49,11 @@ public class ListeSimpleTest {
         listeATester.ajout(1);
         listeATester.ajout(2);
         listeATester.ajout(3);
-        String resultatAttendu = "[1, 2, 3]"; 
+        String resultatAttendu = "ListeSimple(Noeud(3), Noeud(2), Noeud(1))"; 
     
-    //Ask by sonar 
+        //Ask by sonarcube
         assertEquals(resultatAttendu, listeATester.toString(), 
-        "La méthode toString doit renvoyer une représentation textuelle exacte de tous les nœuds.");
-        System.out.println(listeATester);
+            "La méthode toString doit renvoyer une représentation textuelle exacte de tous les nœuds.");
     }
 
     @Test
